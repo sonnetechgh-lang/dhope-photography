@@ -191,12 +191,16 @@ img {
   display: none;
   flex-direction: column;
   gap: 5px;
-  background: none;
-  border: none;
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.15);
+  border-radius: 8px;
+  padding: 8px;
   cursor: pointer;
+  z-index: 1002;
+  position: relative;
 }
 .hamburger span {
-  width: 26px;
+  width: 22px;
   height: 2px;
   background: var(--white);
   display: block;
@@ -1555,7 +1559,7 @@ section {
     pointer-events: none;
     transform: translateY(-16px);
     transition: var(--transition);
-    z-index: 999;
+    z-index: 1000;
   }
   .nav-links.open {
     opacity: 1;
@@ -1567,7 +1571,7 @@ section {
   }
   .hamburger {
     display: flex;
-    z-index: 1001;
+    z-index: 1002;
   }
   .hamburger.open span:nth-child(1) {
     transform: rotate(45deg) translateY(7px);
@@ -1591,8 +1595,23 @@ section {
   .services-grid {
     grid-template-columns: 1fr;
   }
+  /* ── Testimonials mobile ── */
+  .testimonials-carousel {
+    padding: 0 16px;
+  }
+  .testimonial-track {
+    gap: 16px;
+  }
   .testimonial-card {
-    min-width: calc(90vw - 48px);
+    min-width: calc(100vw - 64px);
+    padding: 28px 22px;
+  }
+  .testimonial-text {
+    font-size: 0.88rem;
+  }
+  .carousel-controls {
+    justify-content: center;
+    margin-top: 24px;
   }
   .footer-grid {
     grid-template-columns: 1fr;

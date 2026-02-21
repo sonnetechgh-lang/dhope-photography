@@ -99,28 +99,9 @@ img {
   box-shadow: 0 0 12px var(--glow-strong);
   transition: transform 0.1s;
 }
-.cursor-follower {
-  width: 36px;
-  height: 36px;
-  border-radius: 50%;
-  border: 1.5px solid var(--purple-400);
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 9999;
-  pointer-events: none;
-  transition:
-    transform 0.25s ease,
-    opacity 0.25s;
-  opacity: 0.6;
-}
 .cursor.hovered {
   transform: scale(2.5);
   background: var(--purple-400);
-}
-.cursor-follower.hovered {
-  transform: scale(1.5);
-  opacity: 0.2;
 }
 
 /* ===== NAVBAR ===== */

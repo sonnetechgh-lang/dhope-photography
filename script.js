@@ -100,38 +100,17 @@ navLinks.querySelectorAll('a').forEach(a => {
 
 /* ===== CUSTOM CURSOR ===== */
 const cursor = document.getElementById('cursor');
-const cursorFollower = document.getElementById('cursorFollower');
-let mouseX = 0, mouseY = 0, followerX = 0, followerY = 0;
 
 document.addEventListener('mousemove', e => {
-  mouseX = e.clientX;
-  mouseY = e.clientY;
   if (cursor) {
-    cursor.style.left = mouseX + 'px';
-    cursor.style.top = mouseY + 'px';
+    cursor.style.left = e.clientX + 'px';
+    cursor.style.top = e.clientY + 'px';
   }
 });
 
-function animateCursor() {
-  followerX += (mouseX - followerX) * 0.1;
-  followerY += (mouseY - followerY) * 0.1;
-  if (cursorFollower) {
-    cursorFollower.style.left = (followerX - 18) + 'px';
-    cursorFollower.style.top  = (followerY - 18) + 'px';
-  }
-  requestAnimationFrame(animateCursor);
-}
-animateCursor();
-
 document.querySelectorAll('a, button, .grid-item, .service-card, .filter-btn').forEach(el => {
-  el.addEventListener('mouseenter', () => {
-    cursor?.classList.add('hovered');
-    cursorFollower?.classList.add('hovered');
-  });
-  el.addEventListener('mouseleave', () => {
-    cursor?.classList.remove('hovered');
-    cursorFollower?.classList.remove('hovered');
-  });
+  el.addEventListener('mouseenter', () => cursor?.classList.add('hovered'));
+  el.addEventListener('mouseleave', () => cursor?.classList.remove('hovered'));
 });
 
 /* ===== HERO TYPING TAGLINE ===== */

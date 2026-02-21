@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Dopephotographygh – Turning moments into lasting memories. Premium photography & videography in Ghana. Weddings, portraits, events, drone, and studio sessions." />
+  <meta name="keywords" content="photography Ghana, wedding photographer, studio photography, drone photography, Dopephotographygh" />
+  <title>Dopephotographygh | Turning Moments Into Lasting Memories</title>
+  <link rel="icon" href="Logo/dope-photograpgy_ICON.png" type="image/png" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- AOS -->
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ── CURSOR ── -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-follower" id="cursorFollower"></div>
+
+  <!-- ── SCROLL PROGRESS ── -->
+  <div class="scroll-progress" id="scrollProgress"></div>
+
+  <!-- ── NAVBAR ── -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">
+        <img src="Logo/dope-photograpgy_ICON.png" alt="Dopephotographygh Logo" />
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#contact" class="nav-cta">Book Now</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ── HERO ── -->
+  <section class="hero" id="hero">
+    <div class="particles-canvas" id="particlesCanvas"></div>
+    <div class="hero-slideshow" id="heroSlideshow">
+      <div class="hero-slide active" style="background-image:url('images/Wedding/Wedding/IMG_8193.JPG')"></div>
+      <div class="hero-slide" style="background-image:url('images/Wedding/Wedding/Nii_s Gift (226 of 934).jpg')"></div>
+      <div class="hero-slide" style="background-image:url('images/Wedding/Wedding/20250110_093213.jpg')"></div>
+      <div class="hero-slide" style="background-image:url('images/Drone Services/Drone Services_/dji_fly_20251108_174130_33_1762624635319_photo_optimized.jpg')"></div>
+      <div class="hero-slide" style="background-image:url('images/Studio/Studio/IMG_0462.jpg')"></div>
+    </div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <div class="hero-badge" data-aos="fade-down" data-aos-duration="1000">✦ Premium Photography Studio</div>
+      <h1 class="hero-title" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+        <span class="hero-name">Dopephotography</span><span class="hero-name-gh">gh</span>
+      </h1>
+      <p class="hero-tagline" id="heroTagline" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400"></p>
+      <div class="hero-btns" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
+        <a href="#portfolio" class="btn btn-primary">
+          <span>View Portfolio</span>
+          <i class="fas fa-arrow-right"></i>
+        </a>
+        <a href="#contact" class="btn btn-outline">
+          <span>Book a Session</span>
+          <i class="fas fa-camera"></i>
+        </a>
+      </div>
+      <div class="hero-scroll-hint" data-aos="fade-up" data-aos-delay="800">
+        <span>Scroll to explore</span>
+        <div class="scroll-arrow"></div>
+      </div>
+    </div>
+    <div class="hero-slide-nav">
+      <button class="slide-dot active" data-index="0"></button>
+      <button class="slide-dot" data-index="1"></button>
+      <button class="slide-dot" data-index="2"></button>
+      <button class="slide-dot" data-index="3"></button>
+      <button class="slide-dot" data-index="4"></button>
+    </div>
+  </section>
+
+  <!-- ── STATS ── -->
+  <section class="stats-section" id="stats">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-item" data-aos="fade-up" data-aos-delay="0">
+          <span class="stat-number" data-target="500">0</span><span class="stat-plus">+</span>
+          <p>Sessions Completed</p>
+        </div>
+        <div class="stat-item" data-aos="fade-up" data-aos-delay="100">
+          <span class="stat-number" data-target="150">0</span><span class="stat-plus">+</span>
+          <p>Weddings Captured</p>
+        </div>
+        <div class="stat-item" data-aos="fade-up" data-aos-delay="200">
+          <span class="stat-number" data-target="4">0</span><span class="stat-plus">+</span>
+          <p>Years Experience</p>
+        </div>
+        <div class="stat-item" data-aos="fade-up" data-aos-delay="300">
+          <span class="stat-number" data-target="98">0</span><span class="stat-plus">%</span>
+          <p>Client Satisfaction</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── ABOUT ── -->
+  <section class="about-section" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-image-wrap" data-aos="fade-right" data-aos-duration="1000">
+          <div class="about-image-frame">
+            <img src="images/Studio/Studio/IMG_0039.jpg" alt="Dopephotographygh – Studio" class="about-img" />
+            <div class="about-image-accent"></div>
+          </div>
+          <div class="about-badge-float">
+            <i class="fas fa-star"></i>
+            <span>Premium Quality</span>
+          </div>
+        </div>
+        <div class="about-content" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
+          <span class="section-label">Our Story</span>
+          <h2 class="section-title">Crafting Visual <br /><em>Masterpieces</em> Since Day One</h2>
+          <p class="about-text">
+            At <strong>Dopephotographygh</strong>, we believe every moment has a story worth telling — beautifully, authentically, and timelessly. Based in Ghana, we are a creative photography studio that specialises in capturing the emotions, details, and energy that make each event, portrait, or scene uniquely yours.
+          </p>
+          <p class="about-text">
+            From intimate studio portraits to grand weddings, from high-altitude drone perspectives to fashion editorials — our lens sees it all. We combine technical expertise with an artistic eye to deliver images that go far beyond documentation.
+          </p>
+          <div class="about-features">
+            <div class="feature-pill"><i class="fas fa-check-circle"></i> Professional Equipment</div>
+            <div class="feature-pill"><i class="fas fa-check-circle"></i> Fast Turnaround</div>
+            <div class="feature-pill"><i class="fas fa-check-circle"></i> Creative Editing</div>
+            <div class="feature-pill"><i class="fas fa-check-circle"></i> Licensed Drone Ops</div>
+          </div>
+          <a href="#contact" class="btn btn-primary mt-btn">
+            <span>Work With Us</span>
+            <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── PORTFOLIO ── -->
+  <section class="portfolio-section" id="portfolio">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-label">Our Work</span>
+        <h2 class="section-title">Visual <em>Stories</em> We've Told</h2>
+        <p class="section-sub">A curated collection of our finest work across genres</p>
+      </div>
+      <div class="filter-bar" data-aos="fade-up" data-aos-delay="100">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="wedding">Weddings</button>
+        <button class="filter-btn" data-filter="studio">Studio</button>
+        <button class="filter-btn" data-filter="drone">Drone</button>
+      </div>
+      <div class="masonry-grid" id="masonryGrid">
+
+        <!-- Wedding images -->
+        <div class="grid-item wedding" data-aos="zoom-in" data-aos-delay="0">
+          <img src="images/Wedding/Wedding/Nii_s Gift (10 of 934).jpg" alt="Wedding" loading="lazy" />
+          <div class="grid-overlay">
+            <h3>Wedding Bliss</h3>
+            <span>Weddings</span>
+            <button class="lightbox-open" data-src="images/Wedding/Wedding/Nii_s Gift (10 of 934).jpg" data-caption="Wedding Bliss"><i class="fas fa-expand"></i></button>
+          </div>
+        </div>
+
+        <div class="grid-item studio" data-aos="zoom-in" data-aos-delay="50">
+          <img src="images/Studio/Studio/IMG_0102.jpg" alt="Studio Portrait" loading="lazy" />
+          <div class="grid-overlay">
+            <h3>Studio Portrait</h3>
+            <span>Studio</span>
+            <button class="lightbox-open" data-src="images/Studio/Studio/IMG_0102.jpg" data-caption="Studio Portrait"><i class="fas fa-expand"></i></button>
+          </div>
+        </div>
+
+        <div class="grid-item wedding" data-aos="zoom-in" data-aos-delay="100">
+          <img src="images/Wedding/Wedding/Nii_s Gift (16 of 934).jpg" alt="Wedding Ceremony" loading="lazy" />
+          <div class="grid-overlay">
+            <h3>Sacred Vows</h3>
+            <span>Weddings</span>
+            <button class="lightbox-open" data-src="images/Wedding/Wedding/Nii_s Gift (16 of 934).jpg" data-caption="Sacred Vows"><i class="fas fa-expand"></i></button>
+          </div>
+        </div>
+
+        <div class="grid-item drone" data-aos="zoom-in" data-aos-delay="150">
+          <img src="images/Drone Services/Drone Services_/dji_fly_20251108_174130_33_1762624635319_photo_optimized.jpg" alt="Drone Aerial" loading="lazy" />
+          <div class="grid-overlay">
+            <h3>Aerial Vista</h3>
+            <span>Drone</span>
+            <button class="lightbox-open" data-src="images/Drone Services/Drone Services_/dji_fly_20251108_174130_33_1762624635319_photo_optimized.jpg" data-caption="Aerial Vista"><i class="fas fa-expand"></i></button>
+          </div>
+        </div>
+
+        <div class="grid-item studio" data-aos="zoom-in" data-aos-delay="200">
+          <img src="images/Studio/Studio/IMG_0462.jpg" alt="Studio Session" loading="lazy" />
+          <div class="grid-overlay">
+            <h3>Golden Hour</h3>
+            <span>Studio</span>
+            <button class="lightbox-open" data-src="images/Studio/Studio/IMG_0462.jpg" data-caption="Golden Hour"><i class="fas fa-expand"></i></button>
+          </div>
+        </div>
+
+        <div class="grid-item wedding" data-aos="zoom-in" data-aos-delay="250">
+          <img src="images/Wedding/Wedding/Nii_s Gift (226 of 934).jpg" alt="Wedding Reception" loading="lazy" />
+          <div class="grid-overlay">
+            <h3>Celebration</h3>
+            <span>Weddings</span>
+            <button class="lightbox-open" data-src="images/Wedding/Wedding/Nii_s Gift (226 of 934).jpg" data-caption="Celebration"><i class="fas fa-expand"></i></button>
+          </div>
+        </div>
+
+        <div class="grid-item studio" data-aos="zoom-in" data-aos-delay="300">
+          <img src="images/Studio/Studio/IMG_0109.jpg" alt="Studio Fashion" loading="lazy" />
+          <div class="grid-overlay">
+            <h3>Editorial Style</h3>
+            <span>Studio</span>
+            <button class="lightbox-open" data-src="images/Studio/Studio/IMG_0109.jpg" data-caption="Editorial Style"><i class="fas fa-expand"></i></button>
+          </div>
+        </div>
+
+        <div class="grid-item wedding" data-aos="zoom-in" data-aos-delay="350">
+          <img src="images/Wedding/Wedding/Nii_s Gift (368 of 934).jpg" alt="Wedding Moments" loading="lazy" />
+          <div class="grid-overlay">
+            <h3>Precious Moments</h3>
+            <span>Weddings</span>
+            <button class="lightbox-open" data-src="images/Wedding/Wedding/Nii_s Gift (368 of 934).jpg" data-caption="Precious Moments"><i class="fas fa-expand"></i></button>
+          </div>
+        </div>
+
+        <div class="grid-item drone" data-aos="zoom-in" data-aos-delay="400">
+          <img src="images/Drone Services/Drone Services_/_MG_0939.jpg" alt="Drone Shot" loading="lazy" />
+          <div class="grid-overlay">
+            <h3>Above The Clouds</h3>
+            <span>Drone</span>
+            <button class="lightbox-open" data-src="images/Drone Services/Drone Services_/_MG_0939.jpg" data-caption="Above The Clouds"><i class="fas fa-expand"></i></button>
+          </div>
+        </div>
+
+        <div class="grid-item studio" data-aos="zoom-in" data-aos-delay="450">
+          <img src="images/Studio/Studio/IMG_0114.jpg" alt="Studio Portrait" loading="lazy" />
+          <div class="grid-overlay">
+            <h3>Bold &amp; Beautiful</h3>
+            <span>Studio</span>
+            <button class="lightbox-open" data-src="images/Studio/Studio/IMG_0114.jpg" data-caption="Bold & Beautiful"><i class="fas fa-expand"></i></button>
+          </div>
+        </div>
+
+        <div class="grid-item wedding" data-aos="zoom-in" data-aos-delay="500">
+          <img src="images/Wedding/Wedding/Nii_s Gift (376 of 934).jpg" alt="Wedding Love" loading="lazy" />
+          <div class="grid-overlay">
+            <h3>Forever Love</h3>
+            <span>Weddings</span>
+            <button class="lightbox-open" data-src="images/Wedding/Wedding/Nii_s Gift (376 of 934).jpg" data-caption="Forever Love"><i class="fas fa-expand"></i></button>
+          </div>
+        </div>
+
+        <div class="grid-item studio" data-aos="zoom-in" data-aos-delay="550">
+          <img src="images/Studio/Studio/1cd177bab0f679c90936bf0c65f326d8.jpg" alt="Creative Studio" loading="lazy" />
+          <div class="grid-overlay">
+            <h3>Creative Vision</h3>
+            <span>Studio</span>
+            <button class="lightbox-open" data-src="images/Studio/Studio/1cd177bab0f679c90936bf0c65f326d8.jpg" data-caption="Creative Vision"><i class="fas fa-expand"></i></button>
+          </div>
+        </div>
+
+      </div>
+      <div class="portfolio-load-more" data-aos="fade-up">
+        <a href="#contact" class="btn btn-outline">
+          <span>Book Your Session</span>
+          <i class="fas fa-camera"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── SERVICES ── -->
+  <section class="services-section" id="services">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-label">What We Offer</span>
+        <h2 class="section-title">Our <em>Services</em></h2>
+        <p class="section-sub">Every package crafted for the perfect visual experience</p>
+      </div>
+      <div class="services-grid">
+
+        <div class="service-card" data-aos="fade-up" data-aos-delay="0">
+          <div class="service-card-bg" style="background-image:url('images/Wedding/Wedding/_MG_5159.jpg')"></div>
+          <div class="service-card-overlay"></div>
+          <div class="service-card-content">
+            <span class="service-tag"><i class="fas fa-rings-wedding"></i> Wedding</span>
+            <h3>Wedding Photography</h3>
+            <p>Full-day coverage capturing every heartfelt moment — from preparation to the first dance. Delivered in cinematic style.</p>
+            <div class="service-features">
+              <span>Full-day coverage</span>
+              <span>Edited gallery</span>
+              <span>Drone shots</span>
+            </div>
+            <a href="#contact" class="service-link">Get Quote <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="service-card-bg" style="background-image:url('images/Studio/Studio/IMG_0462.jpg')"></div>
+          <div class="service-card-overlay"></div>
+          <div class="service-card-content">
+            <span class="service-tag"><i class="fas fa-camera"></i> Studio</span>
+            <h3>Studio Portraits</h3>
+            <p>Professional, beautifully lit studio sessions for individuals, couples, brands, and families. Any creative vision.</p>
+            <div class="service-features">
+              <span>Professional lighting</span>
+              <span>Multiple backdrops</span>
+              <span>Same-day previews</span>
+            </div>
+            <a href="#contact" class="service-link">Book Session <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="service-card-bg" style="background-image:url('images/Drone Services/Drone Services_/dji_fly_20251108_174130_33_1762624635319_photo_optimized.jpg')"></div>
+          <div class="service-card-overlay"></div>
+          <div class="service-card-content">
+            <span class="service-tag"><i class="fas fa-helicopter"></i> Drone</span>
+            <h3>Drone Cinematography</h3>
+            <p>Breathtaking aerial footage for events, real estate, tourism, and commercial projects. Licensed drone operations.</p>
+            <div class="service-features">
+              <span>4K aerial video</span>
+              <span>Licensed pilot</span>
+              <span>Event coverage</span>
+            </div>
+            <a href="#contact" class="service-link">Get Quote <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="service-card-bg" style="background-image:url('images/Wedding/Wedding/_MG_5159.jpg')"></div>
+          <div class="service-card-overlay"></div>
+          <div class="service-card-content">
+            <span class="service-tag"><i class="fas fa-star"></i> Events</span>
+            <h3>Events &amp; Parties</h3>
+            <p>Corporate events, birthday parties, graduations, and social gatherings. We blend in to capture the authentic magic.</p>
+            <div class="service-features">
+              <span>Corporate events</span>
+              <span>Birthdays</span>
+              <span>Graduations</span>
+            </div>
+            <a href="#contact" class="service-link">Book Now <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+          <div class="service-card-bg" style="background-image:url('images/Wedding/Wedding/Nii_s Gift (10 of 934).jpg')"></div>
+          <div class="service-card-overlay"></div>
+          <div class="service-card-content">
+            <span class="service-tag"><i class="fas fa-shirt"></i> Fashion</span>
+            <h3>Fashion &amp; Editorial</h3>
+            <p>High-fashion photography for models, designers, and brands. Editorial-quality images that tell a compelling visual narrative.</p>
+            <div class="service-features">
+              <span>Model photography</span>
+              <span>Brand shoots</span>
+              <span>Editorial styling</span>
+            </div>
+            <a href="#contact" class="service-link">Get Quote <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <div class="service-card" data-aos="fade-up" data-aos-delay="500">
+          <div class="service-card-bg" style="background-image:url('images/Studio/Studio/IMG_8191.JPG')"></div>
+          <div class="service-card-overlay"></div>
+          <div class="service-card-content">
+            <span class="service-tag"><i class="fas fa-video"></i> Video</span>
+            <h3>Videography</h3>
+            <p>Cinematic video production for weddings, events, music videos, and commercial projects. Full editing and color grading included.</p>
+            <div class="service-features">
+              <span>4K cinema quality</span>
+              <span>Full color grade</span>
+              <span>Music + Sound</span>
+            </div>
+            <a href="#contact" class="service-link">Book Now <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── TESTIMONIALS ── -->
+
+  <section class="testimonials-section" id="testimonials">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-label">Client Love</span>
+        <h2 class="section-title">What Our Clients <em>Say</em></h2>
+      </div>
+      <div class="testimonials-carousel" id="testimonialsCarousel">
+        <div class="testimonial-track" id="testimonialTrack">
+
+          <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+            <p class="testimonial-text">"Dopephotographygh captured our wedding beyond anything we imagined. Every photo tells a story — we cry happy tears every time we look at them. Truly magical work!"</p>
+            <div class="testimonial-author">
+              <div class="author-avatar" style="background: linear-gradient(135deg, #7c3aed, #a855f7)">N</div>
+              <div>
+                <strong>Nana &amp; Ama</strong>
+                <span>Wedding Clients, Accra</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+            <p class="testimonial-text">"The studio session was an experience on its own! Professional, creative, and they made me feel so comfortable. The photos came out absolutely stunning."</p>
+            <div class="testimonial-author">
+              <div class="author-avatar" style="background: linear-gradient(135deg, #6d28d9, #8b5cf6)">K</div>
+              <div>
+                <strong>Kofi Mensah</strong>
+                <span>Studio Portrait Client</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+            <p class="testimonial-text">"Used their drone service for our real estate project — the aerial shots were jaw-dropping. It elevated our marketing completely. Will definitely use them again!"</p>
+            <div class="testimonial-author">
+              <div class="author-avatar" style="background: linear-gradient(135deg, #4c1d95, #7c3aed)">A</div>
+              <div>
+                <strong>Abena Properties</strong>
+                <span>Commercial Drone Client</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+            <p class="testimonial-text">"They shot my daughter's graduation and the results were outstanding. Every detail was captured with care. The editing quality is world-class."</p>
+            <div class="testimonial-author">
+              <div class="author-avatar" style="background: linear-gradient(135deg, #5b21b6, #9333ea)">E</div>
+              <div>
+                <strong>Efua Asante</strong>
+                <span>Graduation Event Client</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+            <p class="testimonial-text">"Best photography investment we've made for our brand. The fashion editorial shoot was creative, professional, and delivered on time. 10/10!"</p>
+            <div class="testimonial-author">
+              <div class="author-avatar" style="background: linear-gradient(135deg, #7c3aed, #c084fc)">Y</div>
+              <div>
+                <strong>Yaa Designs</strong>
+                <span>Fashion &amp; Branding Client</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="carousel-controls">
+          <button class="carousel-prev" id="carouselPrev" aria-label="Previous"><i class="fas fa-chevron-left"></i></button>
+          <div class="carousel-dots" id="carouselDots"></div>
+          <button class="carousel-next" id="carouselNext" aria-label="Next"><i class="fas fa-chevron-right"></i></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CONTACT ── -->
+  <section class="contact-section" id="contact">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-label">Get In Touch</span>
+        <h2 class="section-title">Book Your <em>Session</em></h2>
+        <p class="section-sub">Ready to create something extraordinary? Let's talk.</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info" data-aos="fade-right" data-aos-duration="800">
+          <div class="contact-detail">
+            <div class="contact-icon"><i class="fas fa-phone"></i></div>
+            <div>
+              <h4>Call Us</h4>
+              <a href="tel:+233559664078">0559 664 078</a>
+              <a href="tel:+233209034481">0209 034 481</a>
+            </div>
+          </div>
+          <div class="contact-detail">
+            <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+            <div>
+              <h4>Email Us</h4>
+              <a href="mailto:dopeconceptmultimedia1@gmail.com">dopeconceptmultimedia1@gmail.com</a>
+            </div>
+          </div>
+          <div class="contact-detail">
+            <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+            <div>
+              <h4>Location</h4>
+              <span>Greater Accra, Ghana</span>
+            </div>
+          </div>
+          <div class="contact-social">
+            <h4>Follow Us</h4>
+            <div class="social-row">
+              <a href="https://instagram.com/Dopephotograp" target="_blank" class="social-btn ig" aria-label="Instagram">
+                <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+              </a>
+              <a href="https://facebook.com/Dopephotograp" target="_blank" class="social-btn fb" aria-label="Facebook">
+                <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M24 12.073C24 5.405 18.627 0 12 0S0 5.405 0 12.073c0 6.026 4.388 11.024 10.125 11.927v-8.437H7.078v-3.49h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.234 2.686.234v2.953h-1.513c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.49h-2.796v8.437C19.612 23.097 24 18.099 24 12.073z"/></svg>
+              </a>
+              <a href="https://tiktok.com/@Dopephotograp" target="_blank" class="social-btn tt" aria-label="TikTok">
+                <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 00-.79-.05 6.34 6.34 0 00-6.34 6.34 6.34 6.34 0 006.34 6.34 6.34 6.34 0 006.33-6.34V8.69a8.18 8.18 0 004.78 1.52V6.74a4.85 4.85 0 01-1.01-.05z"/></svg>
+              </a>
+              <a href="https://wa.me/233559664078" target="_blank" class="social-btn wa" aria-label="WhatsApp">
+                <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.521.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 00-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+              </a>
+            </div>
+            <p class="social-handle">@Dopephotograp</p>
+          </div>
+        </div>
+
+        <div class="contact-form-wrap" data-aos="fade-left" data-aos-duration="800" data-aos-delay="100">
+          <form class="contact-form" id="contactForm">
+            <div class="form-group">
+              <input type="text" id="clientName" name="name" placeholder=" " required />
+              <label for="clientName">Your Name</label>
+              <div class="form-line"></div>
+            </div>
+            <div class="form-group">
+              <input type="email" id="clientEmail" name="email" placeholder=" " required />
+              <label for="clientEmail">Email Address</label>
+              <div class="form-line"></div>
+            </div>
+            <div class="form-group">
+              <input type="tel" id="clientPhone" name="phone" placeholder=" " />
+              <label for="clientPhone">Phone Number</label>
+              <div class="form-line"></div>
+            </div>
+            <div class="form-group">
+              <select id="serviceType" name="service" required>
+                <option value="" disabled selected></option>
+                <option value="wedding">Wedding Photography</option>
+                <option value="studio">Studio Portrait</option>
+                <option value="drone">Drone Cinematography</option>
+                <option value="events">Events &amp; Parties</option>
+                <option value="fashion">Fashion &amp; Editorial</option>
+                <option value="video">Videography</option>
+              </select>
+              <label for="serviceType">Service Type</label>
+              <div class="form-line"></div>
+            </div>
+            <div class="form-group">
+              <input type="date" id="eventDate" name="date" placeholder=" " />
+              <label for="eventDate">Event / Session Date</label>
+              <div class="form-line"></div>
+            </div>
+            <div class="form-group textarea-group">
+              <textarea id="clientMessage" name="message" rows="4" placeholder=" "></textarea>
+              <label for="clientMessage">Tell Us About Your Vision</label>
+              <div class="form-line"></div>
+            </div>
+            <button type="submit" class="btn btn-primary full-width" id="submitBtn">
+              <span>Send Message</span>
+              <i class="fas fa-paper-plane"></i>
+            </button>
+          </form>
+          <div class="form-success" id="formSuccess">
+            <i class="fas fa-check-circle"></i>
+            <h3>Message Sent!</h3>
+            <p>We'll get back to you within 24 hours.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- WhatsApp Float Button -->
+    <a href="https://wa.me/233559664078?text=Hi%20Dopephotographygh%2C%20I%20would%20like%20to%20book%20a%20session." target="_blank" class="whatsapp-float" aria-label="Chat on WhatsApp">
+      <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" style="width:26px;height:26px"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.521.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 00-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+      <span class="whatsapp-tooltip">Chat on WhatsApp</span>
+    </a>
+  </section>
+
+  <!-- ── FOOTER ── -->
+  <footer class="footer" id="footer">
+    <div class="footer-glow"></div>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="Logo/dope-photograpgy.png" alt="Dopephotographygh" class="footer-logo" />
+          <p>Turning moments into lasting memories. Premium photography and cinematography studio based in Ghana.</p>
+          <div class="footer-social">
+            <a href="https://instagram.com/Dopephotograp" target="_blank" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg></a>
+            <a href="https://facebook.com/Dopephotograp" target="_blank" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073C24 5.405 18.627 0 12 0S0 5.405 0 12.073c0 6.026 4.388 11.024 10.125 11.927v-8.437H7.078v-3.49h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.234 2.686.234v2.953h-1.513c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.49h-2.796v8.437C19.612 23.097 24 18.099 24 12.073z"/></svg></a>
+            <a href="https://tiktok.com/@Dopephotograp" target="_blank" aria-label="TikTok"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 00-.79-.05 6.34 6.34 0 00-6.34 6.34 6.34 6.34 0 006.34 6.34 6.34 6.34 0 006.33-6.34V8.69a8.18 8.18 0 004.78 1.52V6.74a4.85 4.85 0 01-1.01-.05z"/></svg></a>
+            <a href="https://wa.me/233559664078" target="_blank" aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.521.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 00-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg></a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="#services">Wedding Photography</a></li>
+            <li><a href="#services">Studio Portraits</a></li>
+            <li><a href="#services">Drone Cinematography</a></li>
+            <li><a href="#services">Events Coverage</a></li>
+            <li><a href="#services">Fashion &amp; Editorial</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact">
+          <h4>Contact Info</h4>
+          <p><i class="fas fa-phone"></i> <a href="tel:+233559664078">0559 664 078</a></p>
+          <p><i class="fas fa-phone"></i> <a href="tel:+233209034481">0209 034 481</a></p>
+          <p><i class="fas fa-envelope"></i> <a href="mailto:dopeconceptmultimedia1@gmail.com">dopeconceptmultimedia1@gmail.com</a></p>
+          <p><i class="fas fa-map-marker-alt"></i> Greater Accra, Ghana</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Dopephotographygh. All rights reserved.</p>
+        <p>Designed by <span class="heart"></span> <a href="https://www.sonnetghana.com" target="_blank" rel="noopener noreferrer" class="designer-link">www.sonnetghana.com</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ── LIGHTBOX ── -->
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Close"><i class="fas fa-times"></i></button>
+    <button class="lightbox-prev" id="lightboxPrev" aria-label="Previous"><i class="fas fa-chevron-left"></i></button>
+    <button class="lightbox-next" id="lightboxNext" aria-label="Next"><i class="fas fa-chevron-right"></i></button>
+    <div class="lightbox-content">
+      <img src="" alt="" id="lightboxImg" />
+      <p class="lightbox-caption" id="lightboxCaption"></p>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
